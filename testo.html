@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Nessuna – Testo e Analisi</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #ffe6f0, #ffd8c2);
+      color: #333;
+      min-height: 100vh;
+      padding: 40px 20px;
+      position: relative;
+      overflow-x: hidden;
+    }
+
+    /* STICKER */
+    .sticker {
+      position: absolute;
+      font-size: 2em;
+      opacity: 0.3;
+    }
+
+    .sticker1 { top: 5%; left: 5%; }
+    .sticker2 { top: 70%; left: 10%; }
+    .sticker3 { top: 25%; right: 5%; }
+    .sticker4 { bottom: 10%; right: 15%; }
+
+    /* NAVBAR */
+    .navbar {
+      max-width: 1200px;
+      margin: 80px;
+      background: rgba(255,255,255,0.9);
+      border-radius: 20px;
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+    }
+
+    .nav-title {
+      font-weight: 700;
+      color: #42a5f5;
+      font-size: 1.2em;
+    }
+
+    .nav-links a {
+      margin-left: 25px;
+      text-decoration: none;
+      font-weight: 600;
+      color: #444;
+    }
+
+    .nav-links a:hover {
+      color: #42a5f5;
+    }
+
+    /* CONTENUTO */
+    .wrapper {
+      max-width: 1200px;
+      margin: 80px;
+      background: rgba(255,255,255,0.95);
+      border-radius: 25px;
+      padding: 40px;
+      box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      gap: 40px;
+    }
+
+    h1 {
+      grid-column: span 2;
+      text-align: center;
+      color: #42a5f5;
+      font-size: 2.5em;
+      margin-bottom: 20px;
+    }
+
+    .analisi-img {
+      width: 70%;
+      max-width: 580px;
+      display: block;
+      margin: 30px auto;
+      border-radius: 18px;
+      box-shadow: 0 10px 22px rgba(0,0,0,0.18);
+    }
+
+    /* COLORI LEGENDA */
+    .blu { color: #1e88e5; }
+    .verde { color: #2e7d32; }
+    .lilla { color: #ab47bc; }
+    .viola { color: #6a1b9a; }
+    .rosa { color: #e91e63; }
+    .rosso { color: #d32f2f; }
+    .giallo { color: #f9a825; }
+    .arancio { color: #ef6c00; }
+    .blu-elettrico { color: #00acc1; }
+    .marrone { color: #6d4c41; }
+    .verde-acqua { color: #26a69a; }
+
+    .grassetto { font-weight: 700; }
+    .tratteggio { text-decoration: underline dashed; }
+
+    .legenda h2 {
+      color: #42a5f5;
+      margin-bottom: 15px;
+    }
+
+    .legenda p {
+      margin: 6px 0;
+      font-size: 0.95em;
+    }
+
+    @media (max-width: 900px) {
+      .wrapper {
+        grid-template-columns: 1fr;
+      }
+
+      h1 {
+        grid-column: span 1;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- STICKER -->
+  <div class="sticker sticker1">🎵</div>
+  <div class="sticker sticker2">💔</div>
+  <div class="sticker sticker3">🎶</div>
+  <div class="sticker sticker4">❤️</div>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="nav-title">Nessuna – Luchè</div>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="testo.html">Testo & Analisi</a>
+    </div>
+  </nav>
+
+  <!-- CONTENUTO -->
+  <div class="wrapper">
+    <h1>Nessuna – Testo e Analisi</h1>
+
+    <!-- IMMAGINI -->
+    <div>
+      <img src="immagini/parte1.png" class="analisi-img">
+      <img src="immagini/parte2.png" class="analisi-img">
+      <img src="immagini/parte3.png" class="analisi-img">
+    </div>
+
+    <!-- LEGENDA (RIMESSA COME PRIMA) -->
+    <div class="legenda">
+      <h2>Legenda</h2>
+      <p><span class="blu">Blu</span> = Assonanza in A</p>
+      <p><span class="verde">Verde</span> = Allitterazione N</p>
+      <p><span class="lilla">Lilla</span> = Assonanza in O</p>
+      <p><span class="viola">Viola</span> = Rime</p>
+      <p><span class="linea grassetto">Linea Grassetto</span> = Ripetizione</p>
+      <p><span class="rosa">Rosa</span> = Allitterazione in S</p>
+      <p><span class="rosso">Rosso</span> = Assonanza</p>
+      <p><span class="linea tratteggio">Linea Tratteggio</span> = Metafora</p>
+      <p><span class="giallo">Giallo</span> = Paragone</p>
+      <p><span class="arancio">Arancio</span> = Assonanza in I</p>
+      <p><span class="blu-elettrico">Azzurro</span> = Assonanza in E</p>
+      <p><span class="marrone">Marrone</span> = Sinestesia / metafora</p>
+      <p><span class="verde-acqua">Verde Acqua</span> = Ripetizione</p>
+    </div>
+
+  </div>
+
+</body>
+</html>

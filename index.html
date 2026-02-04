@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Nessuna – Luchè</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #ffe6f0, #ffd8c2);
+            color: #333;
+            min-height: 100vh;
+            padding: 40px 20px;
+            position: relative;
+            overflow-x: hidden;
+        }
+
+        /* NAVBAR */
+        .navbar {
+            max-width: 900px;
+            margin: 0 auto 30px;
+            background: rgba(255,255,255,0.9);
+            border-radius: 20px;
+            padding: 15px 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+        }
+
+        .nav-title {
+            font-weight: 700;
+            color: #42a5f5;
+            font-size: 1.2em;
+        }
+
+        .nav-links a {
+            margin-left: 25px;
+            text-decoration: none;
+            font-weight: 600;
+            color: #444;
+        }
+
+        .nav-links a:hover {
+            color: #42a5f5;
+        }
+
+        /* Sticker */
+        .sticker {
+            position: absolute;
+            font-size: 2em;
+            opacity: 0.3;
+        }
+
+        .sticker1 { top: 5%; left: 5%; }
+        .sticker2 { top: 70%; left: 10%; }
+        .sticker3 { top: 25%; right: 5%; }
+        .sticker4 { bottom: 10%; right: 15%; }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background-color: rgba(255,255,255,0.9);
+            padding: 60px 40px;
+            border-radius: 25px;
+            box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 3em;
+            color: #42a5f5;
+        }
+
+        h2 {
+            font-size: 2em;
+            border-left: 6px solid #42a5f5;
+            padding-left: 15px;
+        }
+
+        p {
+            font-size: 1.1em;
+            line-height: 1.8;
+            color: #555;
+        }
+
+        img {
+            display: block;
+            margin: 30px auto;
+            width: 350px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+
+        footer {
+            text-align: center;
+            font-style: italic;
+            color: #666;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="sticker sticker1">🎵</div>
+    <div class="sticker sticker2">💔</div>
+    <div class="sticker sticker3">🎶</div>
+    <div class="sticker sticker4">❤️</div>
+
+    <nav class="navbar">
+        <div class="nav-title">Nessuna – Luchè</div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="testo.html">Testo & Analisi</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1>Nessuna – Luchè</h1>
+
+        <h2>Chi è l'artista</h2>
+        <p>
+            Luchè è un rapper italiano originario di Napoli. È uno dei fondatori del gruppo Co'Sang 
+            e successivamente ha intrapreso una carriera da solista.
+        </p>
+
+        <h2>Significato della canzone</h2>
+        <p>
+            La canzone parla di relazioni difficili, solitudine emotiva e rimpianto.
+        </p>
+
+        <h2>Foto dell'artista</h2>
+        <img src="luche.jpg" alt="Foto di Luchè">
+
+        <footer>
+            Creato da Alessia, Silvia e Federico
+        </footer>
+    </div>
+
+</body>
+</html>
